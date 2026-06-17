@@ -129,9 +129,9 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
 
 <!-- HERO -->
 <div class="hero">
-  <div class="hero-badge">Realm Elite Training · Mentorat 2026</div>
+  <div class="hero-badge">Realm Elite Training · Vertriebs-Mentorat</div>
   <h1>Modul 2: Die Kunst der B2B-Akquise &amp;<br><span>skalierbaren Lead-Generierung</span></h1>
-  <p>Hör zu, mein Sohn: Ein durchschnittlicher Verkäufer bettelt um Termine. Ein wahrer Profi steuert die Realität seines Gegenübers. Hier lernst du, wie du das Vorzimmer dominierst, LinkedIn in eine Gelddruckmaschine verwandelst und eiskalt filterst, wo die Millionen-Projekte liegen.</p>
+  <p>Durchschnittliche Verkäufer bitten um Termine. Die Vertriebselite steuert die Realität des Gegenübers. Dieses Modul vermittelt die exakten Mechanismen, um das Vorzimmer zu dominieren, LinkedIn in ein präzises Instrument zur Neukundengewinnung zu verwandeln und Projekte eiskalt vorzuqualifizieren.</p>
 </div>
 
 <!-- NAV -->
@@ -154,41 +154,41 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
     <div class="card-title"><span class="ico">📞</span>Kaltakquise (Cold Calling) &amp; die totale Vorzimmer-Dominanz</div>
     
     <div class="mentor-box">
-      <strong>Väterlicher Rat vom besten Vertriebler der Welt:</strong>
-      „Mein Junge, merk dir eins: Das Sekretariat – der sogenannte Gatekeeper – ist keine Mauer. Es ist ein Filter für die Schwachen. Wenn du klingst wie ein Bittsteller, wirst du wie ein Bittsteller behandelt und weggeschickt. Wenn du aber mit der Tonalität und der absoluten Selbstverständlichkeit eines CEOs anrufst, öffnet sich jedes Tor. Du verkaufst dort niemals dein Produkt. Du verkaufst ausschließlich den nächsten logischen Prozessschritt.“
+      <strong>Strategisches Kernprinzip:</strong>
+      Das Sekretariat (der Gatekeeper) ist keine Barriere, sondern ein Filter für unqualifizierte Marktteilnehmer. Wer als Bittsteller auftritt, wird abgewiesen. Wer mit der Tonalität und der unaufgeregten Selbstverständlichkeit der Management-Ebene agiert, öffnet Türen. Im Vorzimmer wird niemals das Produkt verkauft – dort wird ausschließlich der nächste Prozessschritt fixiert.
     </div>
 
     <h3>Die Psychologie des Gatekeeper-Rapports</h3>
-    <p>Assistenzen der Geschäftsführung sind darauf konditioniert, Werbeanrufe innerhalb der ersten 3 Sekunden zu erkennen und zu blockieren. Sie achten auf typische Trigger: Übertriebene Freundlichkeit, Unsicherheit in der Stimme, das Verwenden von Rechtfertigungen („Ich wollte mal fragen...“) oder das sofortige Pitchen von Produkteigenschaften.</p>
+    <p>Assistenzen der Geschäftsführung sind darauf konditioniert, Werbeanrufe innerhalb der ersten 3 Sekunden zu identifizieren und zu blockieren. Typische Trigger sind: Übertriebene Freundlichkeit, Unsicherheit, Rechtfertigungen („Ich wollte mal fragen...“) oder das sofortige Pitchen von Produktmerkmalen.</p>
     
-    <p>Um das Vorzimmer zu passieren, nutzen wir den **Status-Rapport**. Du passt deine Tonalität nicht der Assistenz an, sondern der des Geschäftsführers: Ruhig, bestimmt, geschäftsmäßig, leicht gehetzt, aber absolut höflich und direkt.</p>
+    <p>Das Durchbrechen dieser Barriere erfordert den sogenannten **Status-Rapport**. Die eigene Tonalität orientiert sich nicht an der Assistenz, sondern an der des Geschäftsführers: Ruhig, bestimmt, geschäftsmäßig, fokussiert und absolut direkt.</p>
 
     <h3>Die linguistischen Werkzeuge in der Praxis</h3>
     
     <h4>1. Die "Status- und Annahme-Methode"</h4>
-    <p>Du bittest nicht um Erlaubnis. Du setzt voraus, dass dein Anruf eine geschäftliche Notwendigkeit für das Unternehmen ist. Du nennst deinen Nachnamen und das Unternehmen flüssig, gefolgt von einer klaren Handlungsanweisung.</p>
+    <p>Es wird nicht um Erlaubnis gebeten. Das Telefonat wird als geschäftliche Notwendigkeit für das Zielunternehmen vorausgesetzt. Der Nachname und das Unternehmen werden flüssig genannt, gefolgt von einer klaren, höflichen Handlungsanweisung.</p>
     
     <div class="script-box">
-      <strong>❌ Der Verlierer-Ansatz:</strong><br>
+      <strong>❌ Der fehlerhafte Ansatz:</strong><br>
       <span class="bad">„Ja hallo, mein Name ist Jan Müller von der Realm Germany. Ich hoffe, ich störe nicht? Ich wollte mal fragen, ob eventuell der Herr Geschäftsführer Schneider heute ganz kurz Zeit für mich hätte? Es geht um unsere neuen, hocheffizienten R290-Wärmepumpen...“</span><br>
-      <em>Ergebnis:</em> „Schicken Sie uns mal eine E-Mail an info@...“ *Klick. Aufgelegt.*<br><br>
-      <strong>🎯 Der Elite-Ansatz (Wie wir es machen):</strong><br>
-      <span class="good">„Guten Tag, Müller mein Name, Realm Germany. Frau [Name der Assistenz – falls bekannt, sonst weglassen], bringen Sie mich bitte kurz zu Herrn Schneider durch. Danke Ihnen.“</span><br>
-      <em>Warum es funktioniert:</em> Keine Fragen, kein Zögern. Die Formulierung „bringen Sie mich bitte durch“ impliziert, dass es bereits einen Kontext oder eine akute geschäftliche Relevanz gibt.
+      <em>Konsequenz:</em> „Schicken Sie uns bitte Informationen an info@...“ *Aufgelegt.*<br><br>
+      <strong>🎯 Der Elite-Ansatz (Standard):</strong><br>
+      <span class="good">„Guten Tag, Müller mein Name, Realm Germany. Frau [Name der Assistenz – falls bekannt], bringen Sie mich bitte kurz zu Herrn Schneider durch. Danke Ihnen.“</span><br>
+      <em>Psychologischer Hintergrund:</em> Keine Fragen, kein Zögern. Die Formulierung „bringen Sie mich bitte durch“ impliziert einen bereits bestehenden Kontext oder eine akute geschäftliche Relevanz.
     </div>
 
     <h4>2. Der „Prozess-Grund“ schlägt den „Produkt-Grund“</h4>
-    <p>Wenn die Assistenz nachfragt: *„Worum geht es denn genau?“*, darfst du niemals dein Produkt nennen. Sobald du „Wärmepumpe“ oder „Heizung“ sagst, bist du in der Schublade „Austauschbarer Verkäufer“.</p>
+    <p>Fragt die Assistenz nach dem Grund (*„Worum geht es denn genau?“*), darf unter keinen Umständen das Produkt genannt werden. Sobald Begriffe wie „Wärmepumpe“ oder „Heizung“ fallen, erfolgt die sofortige Kategorisierung als austauschbarer Verkäufer.</p>
     
     <div class="script-box">
       <strong>❌ Der Fehler:</strong> <span class="bad">„Es geht um unsere neuen R290 Großwärmepumpen, die super Lieferzeiten haben...“</span><br><br>
-      <strong>🎯 Die Lösung:</strong> <span class="good">„Es geht um die strategische Absicherung Ihrer anstehenden Großprojekte gegen die neuen F-Gase-Regulierungen und die Vermeidung von Planungsstopps im kommenden Quartal. Herr Schneider steuert diese Kapazitäten – stellen Sie mich bitte direkt durch?“</span>
+      <strong>🎯 Die Lösung:</strong> <span class="good">„Es geht um die strategische Absicherung anstehender Großprojekte gegen die neuen F-Gase-Regulierungen und die Vermeidung von Planungsstopps im kommenden Quartal. Herr Schneider steuert diese Kapazitäten – stellen Sie mich bitte direkt durch?“</span>
     </div>
 
     <h4>3. Die info@-Blackbox elegant aushebeln</h4>
-    <p>Wenn der Vorwand kommt: *„Schicken Sie uns Unterlagen an info@...“*, stimmst du zu, nutzt es aber sofort als Hebel, um den Kanal zu personalisieren.</p>
+    <p>Beim Vorwand *„Schicken Sie uns Unterlagen an info@...“* wird dem Einwand formal zugestimmt, um Reaktanz zu vermeiden. Gleichzeitig wird er als Hebel genutzt, um den Kommunikationskanal zu personalisieren.</p>
     <div class="script-box">
-      <strong>Dein Konter:</strong> <span class="good">„Das mache ich gern. Da es sich hierbei um die exklusiven Gebietsschutz-Dokumente und vertrauliche Projekt-Kennzahlen für die Region handelt, schicke ich das direkt auf den persönlichen Tisch von Herrn Schneider. Geben Sie mir kurz seine direkte Durchwahl oder seine persönliche E-Mail-Adresse durch?“</span>
+      <strong>Gegenstrategie:</strong> <span class="good">„Das mache ich gern. Da es sich hierbei um die exklusiven Gebietsschutz-Dokumente und vertrauliche Projekt-Kennzahlen für die Region handelt, leite ich diese direkt an den persönlichen Tisch von Herrn Schneider weiter. Geben Sie mir dafür kurz seine direkte Durchwahl oder seine persönliche E-Mail-Adresse durch?“</span>
     </div>
   </div>
 
@@ -203,40 +203,40 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
   <div class="sect-progress"><div class="sect-progress-fill" style="width:50%"></div></div>
 
   <div class="card">
-    <div class="card-title"><span class="ico">🤝</span>Social Selling: Digitale Lead-Generierung auf allerhöchstem Niveau</div>
+    <div class="card-title"><span class="ico">🤝</span>Social Selling: Digitale Lead-Generierung auf Top-Niveau</div>
     
     <div class="mentor-box">
-      <strong>Väterlicher Rat vom besten Vertriebler der Welt:</strong>
-      „Mein Sohn, das Internet ist voll von Amateuren, die via LinkedIn hunderte Copy-Paste-Nachrichten an Geschäftsführer ballern. Das ist digitaler Spam und verbrennt den Markt. Ein wahrer Meister nutzt Social Media wie ein Präzisionsgewehr. Du baust Relevanz und Status auf, lange bevor du die erste Nachricht schreibst. Lass die Kunden das Gefühl haben, sie hätten DICH entdeckt – nicht umgekehrt.“
+      <strong>Strategisches Kernprinzip:</strong>
+      Massenhafte Copy-Paste-Nachrichten an Geschäftsführer verbrennen den Markt. Die digitale Lead-Generierung funktioniert nach dem Prinzip der Relevanz und des Statusaufbaus, lange bevor die erste Nachricht gesendet wird. Das Ziel ist es, vom Kunden als Branchen-Experte entdeckt zu werden, statt als digitaler Störfaktor wahrgenommen zu werden.
     </div>
 
     <h3>Die 3 Säulen der digitalen Anziehungskraft</h3>
-    <p>Wenn ein Geschäftsführer oder Projektentwickler auf dein Profil klickt, hat er eine Aufmerksamkeitsspanne von exakt 4 Sekunden. In dieser Zeit entscheidet er, ob du ein kompetenter Branchen-Experte oder ein nerviger Verkäufer bist.</p>
+    <p>Klickt ein Geschäftsführer oder Projektentwickler auf ein Profil, entscheidet er innerhalb von ca. 4 Sekunden über die Kompetenz des Kontakts.</p>
 
     <h4>Säule 1: Das Landingpage-Profil (Die Nutzen-Formel)</h4>
-    <p>Dein Profil-Slogan (Headline) darf niemals deine Position („Sales Manager bei Realm“) beinhalten. Niemand interessiert sich für deinen Jobtitel. Die Menschen interessieren sich nur für die Lösung ihrer Probleme.</p>
+    <p>Der Profil-Slogan (Headline) darf keine austauschbare Positionsbeschreibung („Sales Manager bei Realm“) enthalten. Im Fokus steht ausschließlich die Lösung des Kundenproblems.</p>
     <div class="hl">
-      <strong>Die perfekte Profil-Formel:</strong><br>
-      <em>Ich helfe [Zielgruppe] dabei, [großes Problem zu lösen] / [großes Ziel zu erreichen], ohne [größte Angst/Sorge der Zielgruppe].</em>
+      <strong>Die Nutzen-Formel:</strong><br>
+      <em>Ich helfe [Zielgruppe] dabei, [großes Problem zu lösen] / [großes Ziel zu erreichen], ohne [größte Sorge der Zielgruppe].</em>
     </div>
     <div class="script-box">
-      <strong>Beispiel für dein Profil:</strong><br>
+      <strong>Beispiel für die Umsetzung:</strong><br>
       <span class="good">„Ich helfe TGA-Fachplanern und gewerblichen Bauträgern dabei, R290-Wärmepumpen-Großprojekte absolut lieferfähig und rechtssicher zu realisieren – ohne unvorhergesehene Kostenexplosionen und langwierige Genehmigungsprozesse.“</span>
     </div>
 
-    <h4>Säule 2: Das "Digitale Einschleichen" (Die 3-Touchpoint-Regel)</h4>
-    <p>Bevor du eine Vernetzungsanfrage schickst, machst du dich im Geiste des Entscheiders unbewusst vertraut (Nutzung des *Mere-Exposure-Effekts*):</p>
+    <h4>Säule 2: Das digitale Prospecting (Die 3-Touchpoint-Regel)</h4>
+    <p>Vor dem Senden einer Vernetzungsanfrage wird über den *Mere-Exposure-Effekt* gezielt psychologische Vertrautheit aufgebaut:</p>
     <ul>
-      <li><strong>Touchpoint 1: Der stille Besuch.</strong> Du besuchst sein Profil. Er sieht in seinen Benachrichtigungen: „Jan Müller hat Ihr Profil besucht.“</li>
-      <li><strong>Touchpoint 2: Die Validierung.</strong> 24 Stunden später likest du einen seiner jüngsten geschäftlichen Beiträge oder Interaktionen.</li>
-      <li><strong>Touchpoint 3: Der Experten-Kommentar.</strong> Du hinterlässt unter seinem Beitrag einen fachlich fundierten, wertschätzenden Kommentar, der deine Expertise zeigt – ohne jeglichen Pitch!</li>
+      <li><strong>Touchpoint 1: Der Profilbesuch.</strong> Ein bewusster Besuch des Zielprofils generiert eine Benachrichtigung beim Entscheider.</li>
+      <li><strong>Touchpoint 2: Die Interaktion.</strong> Nach 24 Stunden wird ein relevanter geschäftlicher Beitrag des Kontakts geliked.</li>
+      <li><strong>Touchpoint 3: Der Experten-Kommentar.</strong> Unter dem Beitrag wird ein fachlich fundierter, wertschätzender Kommentar hinterlassen – absolut ohne Verkaufsabsicht.</li>
     </ul>
 
-    <h4>Säule 3: Die unaufhaltsame Vernetzungsanfrage</h4>
-    <p>Erst nach diesen 3 Touchpoints vernetzt du dich. Deine Nachricht ist kurz, frei von Verkaufsabsichten und knüpft an sein Thema an.</p>
+    <h4>Säule 3: Die qualifizierte Vernetzungsanfrage</h4>
+    <p>Nachgelagert erfolgt die Vernetzung. Die Nachricht ist kurz, frei von Pitch-Elementen und knüpft direkt an die bestehende Interaktion an.</p>
     <div class="script-box">
       <strong>Muster-Anfrage:</strong><br>
-      <span class="good">„Hallo Herr Dr. Schneider, Ihr jüngster Beitrag zum Thema Effizienz im Gewerbebau hat mich inspiriert – insbesondere der Punkt bezüglich der Kältemittel-Umstellung. Ich begleite genau diesen Bereich bei der Realm Germany hier in Bayern und freue mich auf den fachlichen Austausch in meinem Netzwerk. Beste Grüße, Jan Müller“</span>
+      <span class="good">„Hallo Herr Dr. Schneider, Ihr jüngster Beitrag zum Thema Effizienz im Gewerbebau hat mich inspiriert – insbesondere der Punkt bezüglich der Kältemittel-Umstellung. Ich begleite genau diesen Bereich bei der Realm Germany und freue mich auf den fachlichen Austausch in meinem Netzwerk. Beste Grüße, Jan Müller“</span>
     </div>
   </div>
 
@@ -254,53 +254,53 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
     <div class="card-title"><span class="ico">🎯</span>Rigorose Lead-Qualifizierung &amp; das BANT-Framework</div>
     
     <div class="mentor-box">
-      <strong>Väterlicher Rat vom besten Vertriebler der Welt:</strong>
-      „Mein Junge, merke dir diesen Satz für den Rest deines Lebens: Ein schlechter Verkäufer rennt jedem hinterher, der nicht bei drei auf den Bäumen ist, und verschwendet Monate mit unentschlossenen Kunden. Ein Top-Performer schützt seine Arbeitszeit wie seine eigene Familie. Du musst lernen, Leads so schnell wie möglich zu disqualifizieren, wenn sie deine Kriterien nicht erfüllen. Wer kein Geld hat oder keine Entscheidung treffen kann, verdient nicht deine Zeit.“
+      <strong>Strategisches Kernprinzip:</strong>
+      Die eigene Vertriebszeit ist die wertvollste Ressource. Top-Performer zeichnen sich dadurch aus, dass sie unqualifizierte Leads so schnell wie möglich identifizieren und aussortieren. Wer weder über das Budget noch über die nötige Entscheidungsmacht verfügt, darf den operativen Prozess nicht blockieren.
     </div>
 
-    <h3>Das BANT-Framework als Schutzschild</h3>
-    <p>Das BANT-Framework ist kein theoretischer Fragebogen, den du von oben nach unten abliest. Es ist eine strategische Leitlinie, um im lockeren Gespräch herauszufinden, ob ein Projekt echtes Potenzial hat oder nur eine Luftnummer ist.</p>
+    <h3>Das BANT-Framework als strategischer Filter</h3>
+    <p>BANT ist kein starrer Fragebogen, sondern eine qualitative Leitlinie zur Verifikation des echten Projektpotenzials im Erstgespräch.</p>
 
     <div class="tbl-wrap">
       <table>
         <thead>
           <tr>
             <th>Kriterium</th>
-            <th>Tiefe vertriebliche Bedeutung</th>
-            <th>Meisterhafte psychologische Abfrage-Technik</th>
+            <th>Vertriebliche Kernbedeutung</th>
+            <th>Psychologische Abfrage-Technik</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td><strong>B - Budget</strong></td>
-            <td>Hat das Unternehmen die finanzielle Kraft für unsere Premium-Lösung oder redest du mit einer insolventen Firma?</td>
-            <td><em>Frage niemals stumpf nach dem Budget!</em> Frage stattdessen: „Herr Schneider, für Projekte dieser Größenordnung: Welcher finanzielle Rahmen wurde denn für diese Projektphase bereits vom Vorstand freigegeben?“</td>
+            <td>Verfügt das Unternehmen über die finanziellen Mittel für eine Premium-Lösung?</td>
+            <td><em>Indirekte Abfrage:</em> „Für Projekte dieser Größenordnung: Welcher finanzielle Rahmen wurde für diese Projektphase bereits freigegeben?“</td>
           </tr>
           <tr>
             <td><strong>A - Authority</strong></td>
-            <td>Sprecht ihr mit dem echten Entscheider (der die Unterschrift leistet) oder nur mit einem "Ja-Sager" ohne Budgetgewalt?</td>
-            <td>„Angenommen, unser Konzept überzeugt Sie auf ganzer Linie: Wie sieht Ihr interner Freigabeprozess aus und wer sitzt außer Ihnen noch mit am Tisch, wenn die finale Entscheidung getroffen wird?“</td>
+            <td>Sitzt der tatsächliche Entscheider (mit Unterschriftenvollmacht) am Tisch?</td>
+            <td>„Angenommen, unser Konzept überzeugt Sie vollständig: Wie sieht Ihr interner Freigabeprozess aus und wer ist außer Ihnen an der finalen Entscheidung beteiligt?“</td>
           </tr>
           <tr>
             <td><strong>N - Need</strong></td>
-            <td>Gibt es einen echten, brennenden Schmerz (Lieferverzug, drohende Strafen), oder will sich der Kunde nur unverbindlich informieren?</td>
-            <td>„Was passiert eigentlich mit Ihren Fertigstellungsterminen und Ihren Marge-Zielen, wenn Ihr aktueller Lieferant die R290-Großgeräte in 6 Monaten nicht pünktlich auf die Baustelle bringt?“</td>
+            <td>Existiert ein akuter, wirtschaftlicher Schmerzpunkt (z.B. Lieferverzug des Altlieferanten)?</td>
+            <td>„Welche Auswirkungen auf Ihre Fertigstellungstermine hat es, wenn Ihr aktueller Lieferant die R290-Großgeräte im kommenden Quartal nicht fristgerecht liefert?“</td>
           </tr>
           <tr>
             <td><strong>T - Timeline</strong></td>
-            <td>Wann fließt das Geld? Ist die Umsetzung in den nächsten 3 Monaten oder redet ihr über ungelegte Eier im Jahr 2030?</td>
-            <td>„Damit wir die Produktion und den exklusiven Gebietsschutz für Sie rechtzeitig blockieren können: Bis zu welchem Stichtag muss die Anlage zwingend betriebsbereit am Netz sein?“</td>
+            <td>Wann ist der geplante Projekt- und Umsatzrealisierungs-Horizont?</td>
+            <td>„Damit wir die Produktionskapazitäten und den Gebietsschutz für Sie sichern können: Bis zu welchem Stichtag muss die Anlage betriebsbereit am Netz sein?“</td>
           </tr>
         </tbody>
       </table>
     </div>
 
     <h3>Lead-Klassifizierung: A-, B- und C-Leads</h3>
-    <p>Teile deine Leads sofort nach dem Erstgespräch kompromisslos in drei Kategorien ein:</p>
+    <p>Die Einstufung der Kontakte erfolgt unmittelbar nach dem Erstkontakt:</p>
     <ul>
-      <li><strong>A-Leads (Sofortiger Fokus):</strong> Alle 4 BANT-Kriterien sind positiv erfüllt. Der Kunde hat Schmerzen, Geld, die Entscheidungsmacht und will sofort handeln. Hier investierst du 80% deiner Energie.</li>
-      <li><strong>B-Leads (Nurturing-Pipeline):</strong> Bedarf und Geld sind da, aber die Timeline liegt in der Zukunft oder der Entscheider muss noch überzeugt werden. Diese pflegst du mit automatisierten Mehrwert-Mails.</li>
-      <li><strong>C-Leads (Eiskalt aussortieren):</strong> Kein Budget, kein akuter Schmerz, kein Entscheidungsspielraum. Diese Leads werden höflich vertagt und blockieren niemals deinen Terminkalender.</li>
+      <li><strong>A-Leads (Fokus 80%):</strong> Alle vier BANT-Kriterien sind positiv erfüllt. Akuter Bedarf, Budget vorhanden, Entscheider am Tisch, zeitnahe Umsetzung.</li>
+      <li><strong>B-Leads (Nurturing Pipeline):</strong> Bedarf und Budget vorhanden, jedoch liegt die Umsetzung weiter in der Zukunft oder der Freigabeprozess verzögert sich. Diese Leads werden über Mehrwert-Content systematisch weiterentwickelt.</li>
+      <li><strong>C-Leads (Disqualifikation):</strong> Kein Budget, kein realer Schmerzpunkt, keine Entscheidungsmacht. Diese Kontakte werden konsequent aussortiert.</li>
     </ul>
   </div>
 
@@ -316,7 +316,7 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
 
   <div class="card">
     <div class="card-title"><span class="ico">🏆</span>Zertifizierungs-Prüfung – Level: Realm B2B-Closer</div>
-    <p>Hör zu, mein Sohn. Jetzt trennt sich die Spreu vom Weizen. Es folgen **20 knallharte Praxisszenarien**. Um diese Prüfung zu bestehen und das offizielle Realm-Zertifikat zu erhalten, darfst du dir **maximal 3 Fehler** erlauben (Mindestens 17 von 20 richtig). Jede Antwort wird sofort ausgewertet.</p>
+    <p>Die Abschlussprüfung umfasst **20 komplexe Praxisszenarien**. Um die Zertifizierung erfolgreich zu bestehen, sind **mindestens 17 richtige Antworten** erforderlich (maximal 3 Fehler). Jede Eingabe wird in Echtzeit evaluiert.</p>
   </div>
 
   <div class="quiz-box">
@@ -516,7 +516,7 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
       <button class="qopt" onclick="handleAnswer(this, 2)"><span class="qdot"></span>Ich schreibe das Angebot für den Projektleiter und hoffe, dass er es intern irgendwie alleine durchbekommt.</button>
       <button class="qopt" onclick="handleAnswer(this, 3)"><span class="qdot"></span>Ich mache den Projektleiter zu meinem internen Verbündeten („Champion“) und schlage vor, die Geschäftsführung im nächsten Schritt gemeinsam fachlich abzusichern.</button>
       <div class="qfb ok">✓ Korrekt! Du nutzt deinen Champion als Hebel, um gemeinsam vor dem echten Entscheider aufzutreten, ohne Hierarchien zu verletzen.</div>
-      <div class="qfb err">✗ Falsch! Option A verbrennt deinen Kontakt. Option B führt zu monatelangem Stillstand. Mache den Kontakt zu deinem internen Verbündeten!</div>
+      <div class="qfb err">✗ Falsch! Option A verbrennt deinen Mutant. Option B führt zu monatelangem Stillstand. Mache den Kontakt zu deinem internen Verbündeten!</div>
     </div>
 
     <!-- QUESTION 20 -->
@@ -607,7 +607,7 @@ let emailReportText = "";
 function finishAndEvaluate() {
   globalName = document.getElementById('qename').value.trim();
   if(!globalName) {
-    alert("Bitte trage zuerst deinen Vor- und Nachnamen oben im Prüfungsfeld ein, mein Sohn!");
+    alert("Bitte tragen Sie zuerst Ihren Vor- und Nachnamen im Prüfungsfeld ein.");
     document.getElementById('qename').focus();
     return;
   }
@@ -660,11 +660,11 @@ function finishAndEvaluate() {
   if(passed) {
     scoreLbl.textContent = "🎉 Zertifizierung BESTANDEN!";
     scoreLbl.style.color = "var(--green-dark)";
-    resultText.innerHTML = `<strong>Großartige Leistung, ${globalName}!</strong> Du hast maximal 3 Fehler gemacht und bewiesen, dass du die Mechanismen des B2B-Vertriebs verstanden hast. Du bist bereit für den Markt!`;
+    resultText.innerHTML = `<strong>Hervorragende Leistung, ${globalName}!</strong> Sie haben maximal 3 Fehler gemacht und bewiesen, dass Sie die psychologischen und strategischen Mechanismen des B2B-Großkundenvertriebs auf Elite-Niveau beherrschen.`;
   } else {
     scoreLbl.textContent = "❌ Zertifizierung NICHT BESTANDEN";
     scoreLbl.style.color = "var(--red)";
-    resultText.innerHTML = `<strong>Das reicht noch nicht, ${globalName}.</strong> Du hast mehr als 3 Fehler gemacht. Im echten Markt verbrennst du mit diesen Fehlern Millionen-Umsätze. Gehe die Skripte noch einmal durch und versuche es erneut!`;
+    resultText.innerHTML = `<strong>Das reicht noch nicht, ${globalName}.</strong> Sie haben die kritische Fehlergrenze überschritten. Im realen Markt führen diese Fehler zum Verlust von Millionen-Umsätzen. Analysieren Sie die Skripte erneut und starten Sie einen neuen Versuch.`;
   }
 
   emailReportText = `Realm Germany Vertriebsschulung - Modul 2 (B2B-Akquise)\n`;
@@ -679,7 +679,7 @@ function finishAndEvaluate() {
   emailReportText += `\n──────────────────────────────────────────────────\n`;
   emailReportText += `Generiert durch das Realm Elite Zertifizierungssystem.`;
 
-  mailNote.innerHTML = `Die detaillierte Auswertung wurde generiert. Klicke jetzt auf den Button unten, um deine Ergebnisse offiziell an <strong>m.christel@realm-europe.de</strong> zu übermitteln.`;
+  mailNote.innerHTML = `Die detaillierte Auswertung wurde generiert. Klicken Sie auf den Button unten, um Ihre Ergebnisse offiziell an <strong>m.christel@realm-europe.de</strong> zu übermitteln.`;
   sendMailBtn.style.display = "inline-flex";
   
   resultBox.scrollIntoView({behavior: 'smooth'});

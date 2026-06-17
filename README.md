@@ -3,126 +3,121 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Realm Germany – Die Elite-Vertriebsschulung</title>
+<title>B2B Kaltakquise &amp; Leadschulung – Realm Elite Training</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --blue-deep:#0B3D6B;
-  --green-dark:#1A6B4A;
-  --green-mid:#059669;
-  --green-light:#ECFDF5;
-  --amber:#F59E0B;
+  --dark-primary:#111827; /* Sattschwarz für maximalen Kontrast */
+  --dark-muted:#4B5563;
+  --bg-pure:#FFFFFF;      /* Reinweiß für absolute Lesbarkeit */
+  --bg-subtle:#F9FAFB;
+  --accent-grey:#E5E7EB;
+  --accent-green:#059669;
+  --accent-green-light:#ECFDF5;
+  --accent-amber:#D97706;
+  --accent-amber-light:#FFFBEB;
   --red:#DC2626;
-  --bg:#F0F2F5;
-  --card:#FFFFFF;
-  --border:#E5E7EB;
-  --text:#1A1A1A;
-  --muted:#6B7280;
-  --subtle:#F9FAFB;
 }
 html{scroll-behavior:smooth}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-pure);color:var(--dark-primary);line-height:1.65;padding-bottom:5rem}
 
 /* ── HERO ── */
-.hero{background:linear-gradient(135deg,#071f38 0%,var(--blue-deep) 45%,var(--green-dark) 100%);color:#fff;padding:5rem 1.5rem 4rem;text-align:center;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")}
-.hero-badge{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:6px 18px;font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-bottom:1.5rem;backdrop-filter:blur(4px);font-weight:700}
-.hero h1{font-size:clamp(28px,6vw,46px);font-weight:900;margin-bottom:1rem;line-height:1.15;letter-spacing:-0.5px}
-.hero h1 span{color:#6EE7B7}
-.hero p{font-size:16px;opacity:.85;max-width:700px;margin:0 auto 2rem;line-height:1.8}
+.hero{background:var(--bg-subtle);color:var(--dark-primary);padding:5rem 1.5rem;text-align:center;border-bottom:1px solid var(--accent-grey)}
+.hero-badge{display:inline-block;background:var(--dark-primary);color:#fff;border-radius:4px;padding:6px 14px;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:1.5rem;font-weight:700}
+.hero h1{font-size:clamp(32px,5vw,46px);font-weight:900;margin-bottom:1.5rem;line-height:1.2;color:var(--dark-primary);letter-spacing:-0.5px}
+.hero h1 span{color:var(--accent-green);border-bottom:3px solid var(--accent-green)}
+.hero p{font-size:17px;color:var(--dark-muted);max-width:850px;margin:0 auto;line-height:1.8;font-weight:500}
 
 /* ── NAV ── */
-.nav-wrap{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;box-shadow:0 2px 10px rgba(0,0,0,.05)}
-.nav-inner{max-width:1200px;margin:0 auto;padding:0 1rem;display:flex;gap:0;overflow-x:auto;scrollbar-width:none}
+.nav-wrap{background:var(--bg-pure);border-bottom:2px solid var(--dark-primary);position:sticky;top:0;z-index:100}
+.nav-inner{max-width:1100px;margin:0 auto;padding:0 1rem;display:flex;gap:0;overflow-x:auto;scrollbar-width:none}
 .nav-inner::-webkit-scrollbar{display:none}
-.nav-item{flex-shrink:0;padding:1.1rem 1.3rem;font-size:14px;font-weight:700;color:var(--muted);cursor:pointer;border-bottom:4px solid transparent;transition:all .2s;white-space:nowrap}
-.nav-item:hover{color:var(--text);background:var(--subtle)}
-.nav-item.active{color:var(--green-dark);border-bottom-color:var(--green-dark)}
+.nav-item{flex-shrink:0;padding:1.4rem 1.5rem;font-size:14px;font-weight:800;color:var(--dark-muted);cursor:pointer;border-bottom:4px solid transparent;transition:all .15s;white-space:nowrap}
+.nav-item:hover{color:var(--dark-primary);background:var(--bg-subtle)}
+.nav-item.active{color:var(--dark-primary);border-bottom-color:var(--dark-primary)}
 
 /* ── LAYOUT ── */
-.page{max-width:1200px;margin:0 auto;padding:2.5rem 1rem}
-.section{display:none;animation:fadeIn .3.5s ease}
+.page{max-width:1100px;margin:0 auto;padding:3rem 1rem}
+.section{display:none}
 .section.active{display:block}
-@keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 
-/* ── CARDS ── */
-.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:2.5rem;margin-bottom:1.75rem;box-shadow:0 4px 6px -1px rgba(0,0,0,0.02)}
-.card-title{font-size:24px;font-weight:800;margin-bottom:1.5rem;color:var(--blue-deep);display:flex;align-items:center;gap:12px;border-bottom:2px solid var(--subtle);padding-bottom:0.75rem}
-.card-title .ico{font-size:28px}
-h3{font-size:18px;font-weight:800;margin:2rem 0 .75rem;color:var(--blue-deep);display:flex;align-items:center;gap:6px}
-h4{font-size:15px;font-weight:700;margin:1.25rem 0 .5rem;color:var(--green-dark);text-transform:uppercase;letter-spacing:0.5px}
-p{font-size:15px;line-height:1.8;color:#374151;margin-bottom:1.25rem}
-ul,ol{padding-left:1.5rem;margin-bottom:1.25rem}
-li{font-size:15px;line-height:1.8;color:#374151;margin-bottom:0.5rem}
+/* ── CARDS & SECTIONS ── */
+.card{background:var(--bg-pure);border:1px solid var(--accent-grey);padding:3rem 0;margin-bottom:3rem;border-bottom:3px solid var(--dark-primary)}
+.card-title{font-size:28px;font-weight:900;margin-bottom:2rem;color:var(--dark-primary);display:flex;align-items:center;gap:14px;padding-bottom:1rem;border-bottom:1px solid var(--accent-grey)}
+.card-title .ico{font-size:32px}
+h3{font-size:22px;font-weight:900;margin:3rem 0 1.25rem;color:var(--dark-primary);letter-spacing:-0.3px}
+h4{font-size:14px;font-weight:800;margin:2rem 0 0.5rem;color:var(--dark-primary);text-transform:uppercase;letter-spacing:1px}
+p{font-size:16px;line-height:1.8;color:var(--dark-primary);margin-bottom:1.5rem}
+ul,ol{padding-left:1.75rem;margin-bottom:1.5rem}
+li{font-size:16px;line-height:1.8;color:var(--dark-primary);margin-bottom:0.75rem}
 
 /* ── HIGHLIGHT BOXES ── */
-.hl{background:var(--green-light);border-left:5px solid var(--green-mid);border-radius:0 12px 12px 0;padding:1.25rem 1.5rem;margin:1.5rem 0;font-size:14.5px;line-height:1.8}
-.hl strong{display:block;margin-bottom:5px;color:var(--green-dark);font-size:16px}
+.hl{background:var(--accent-green-light);border-left:4px solid var(--accent-green);padding:1.5rem;margin:2.5rem 0}
+.hl strong{display:block;margin-bottom:6px;color:var(--dark-primary);font-size:16px;font-weight:800}
 
-.mentor-box{background:#FFFBEB;border-left:5px solid var(--amber);border-radius:0 12px 12px 0;padding:1.25rem 1.5rem;margin:1.5rem 0;font-size:14.5px;line-height:1.8;color:#78350F}
-.mentor-box strong{display:block;margin-bottom:5px;color:#92400E;font-size:16px}
+.mentor-box{background:var(--accent-amber-light);border-left:4px solid var(--accent-amber);padding:1.5rem;margin:2.5rem 0;color:var(--dark-primary)}
+.mentor-box strong{display:block;margin-bottom:6px;color:var(--dark-primary);font-size:16px;font-weight:800}
 
 /* ── SCRIPT BOX ── */
-.script-box {background:#1E293B;color:#E2E8F0;border-radius:12px;padding:1.5rem;font-family:'SF Mono',Consolas,monospace;font-size:13.5px;margin:1.25rem 0;line-height:1.8;border-left:5px solid #38BDF8;box-shadow:inset 0 2px 4px rgba(0,0,0,0.2)}
-.script-box strong {color:#38BDF8;font-size:14px;display:block;margin-bottom:0.5rem;text-transform:uppercase;letter-spacing:0.5px}
-.script-box .bad {color:#F87171}
-.script-box .good {color:#34D399}
+.script-box {background:var(--bg-subtle);color:var(--dark-primary);border:1px solid var(--accent-grey);padding:1.75rem;font-size:15px;margin:2rem 0;line-height:1.8;border-left:4px solid var(--dark-primary)}
+.script-box strong {color:var(--dark-primary);font-size:13px;display:block;margin-bottom:0.75rem;text-transform:uppercase;letter-spacing:1px;font-weight:800}
+.script-box .bad {color:var(--red);font-weight:700;display:block;margin-bottom:0.5rem}
+.script-box .good {color:var(--accent-green);font-weight:700;display:block;margin-bottom:0.5rem}
 
 /* ── TABLE ── */
-.tbl-wrap{overflow-x:auto;margin:1.5rem 0;border-radius:12px;border:1px solid var(--border);box-shadow:0 4px 6px -1px rgba(0,0,0,0.01)}
-table{width:100%;border-collapse:collapse;font-size:14px}
-thead tr{background:var(--subtle)}
-th{padding:12px 16px;text-align:left;font-weight:800;color:var(--blue-deep);border-bottom:2px solid var(--border)}
-td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-align:top;line-height:1.6}
+.tbl-wrap{overflow-x:auto;margin:2.5rem 0;border:1px solid var(--accent-grey)}
+table{width:100%;border-collapse:collapse;font-size:15px;color:var(--dark-primary)}
+thead tr{background:var(--bg-subtle);border-bottom:2px solid var(--dark-primary)}
+th{padding:14px 16px;text-align:left;font-weight:900;color:var(--dark-primary)}
+td{padding:16px;border-bottom:1px solid var(--accent-grey);vertical-align:top;line-height:1.7}
 
 /* ── QUIZ ── */
-.quiz-box{background:var(--card);border:2px solid var(--blue-deep);border-radius:16px;padding:2.5rem;margin-top:2rem;box-shadow:0 10px 15px -3px rgba(0,0,0,0.05)}
-.quiz-box h3{font-size:22px;font-weight:900;margin-bottom:.5rem;color:var(--blue-deep)}
-.quiz-box .qsub{font-size:14px;color:var(--muted);margin-bottom:2rem;border-bottom:2px solid var(--border);padding-bottom:1rem}
-.qitem{margin-bottom:2.5rem;border-bottom:1px dashed var(--border);padding-bottom:2rem}
+.quiz-box{background:var(--bg-pure);border:3px solid var(--dark-primary);padding:3rem 2rem;margin-top:3rem}
+.quiz-box h3{font-size:26px;font-weight:900;margin-top:0;margin-bottom:0.5rem;color:var(--dark-primary)}
+.quiz-box .qsub{font-size:14px;color:var(--dark-muted);margin-bottom:2.5rem;border-bottom:1px solid var(--accent-grey);padding-bottom:1rem;font-weight:600}
+.qitem{margin-bottom:3rem;border-bottom:1px dashed var(--accent-grey);padding-bottom:2.5rem}
 .qitem:last-of-type{border-bottom:none}
-.qitem .qt{font-size:16px;font-weight:800;margin-bottom:1rem;line-height:1.6;color:var(--text)}
+.qitem .qt{font-size:17px;font-weight:800;margin-bottom:1.25rem;line-height:1.6;color:var(--dark-primary)}
 
-.qopt{display:flex;align-items:flex-start;gap:12px;background:#fff;border:2px solid var(--border);border-radius:10px;padding:.875rem 1.25rem;cursor:pointer;margin-bottom:10px;font-size:14px;color:#374151;width:100%;text-align:left;line-height:1.6;transition:all .2s;font-weight:500}
-.qopt:hover{border-color:#6B7280;background:var(--subtle);transform:translateX(4px)}
-.qopt .qdot{width:18px;height:18px;border:2px solid #D1D5DB;border-radius:50%;flex-shrink:0;margin-top:2px;transition:all .2s;position:relative}
+.qopt{display:flex;align-items:flex-start;gap:14px;background:var(--bg-pure);border:1px solid var(--accent-grey);padding:1rem 1.5rem;cursor:pointer;margin-bottom:12px;font-size:15px;color:var(--dark-primary);width:100%;text-align:left;line-height:1.6;transition:all .15s;font-weight:600}
+.qopt:hover{border-color:var(--dark-primary);background:var(--bg-subtle)}
+.qopt .qdot{width:18px;height:18px;border:2px solid var(--accent-grey);border-radius:50%;flex-shrink:0;margin-top:2px;position:relative}
 
-/* Sofort-Feedback */
-.qopt.correct{background:var(--green-light) !important;border-color:var(--green-mid) !important;color:#065F46 !important;font-weight:700;box-shadow:0 4px 6px -1px rgba(5,150,105,0.1)}
-.qopt.correct .qdot{background:var(--green-mid) !important;border-color:var(--green-mid) !important}
-.qopt.wrong{background:#FEF2F2 !important;border-color:var(--red) !important;color:#7F1D1D !important;font-weight:700}
+/* Feedback-Zustände */
+.qopt.correct{background:var(--accent-green-light) !important;border-color:var(--accent-green) !important;color:var(--dark-primary) !important;font-weight:800}
+.qopt.correct .qdot{background:var(--accent-green) !important;border-color:var(--accent-green) !important}
+.qopt.wrong{background:#FEF2F2 !important;border-color:var(--red) !important;color:var(--dark-primary) !important;font-weight:800}
 .qopt.wrong .qdot{background:var(--red) !important;border-color:var(--red) !important}
-.qopt.locked{pointer-events:none;opacity:0.6;transform:none !important}
+.qopt.locked{pointer-events:none;opacity:0.5}
 .qopt.locked.correct, .qopt.locked.wrong{opacity:1}
 
-.qfb{display:none;font-size:13.5px;line-height:1.7;padding:1rem 1.25rem;border-radius:10px;margin-top:.75rem;font-weight:500}
-.qfb.show{display:block;animation:slideIn .2s ease}
-@keyframes slideIn{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
-.qfb.ok{background:var(--green-light);color:#065F46;border:1px solid #A7F3D0}
-.qfb.err{background:#FEF2F2;color:#7F1D1D;border:1px solid #FECACA}
+.qfb{display:none;font-size:14px;line-height:1.7;padding:1rem 1.25rem;margin-top:1rem;font-weight:700}
+.qfb.show{display:block}
+.qfb.ok{background:var(--accent-green-light);color:var(--dark-primary);border-left:4px solid var(--accent-green)}
+.qfb.err{background:#FEF2F2;color:var(--dark-primary);border-left:4px solid var(--red)}
 
-/* Ergebnis-Auswertung */
-.quiz-score{display:none;background:#fff;border-radius:14px;padding:2.5rem;text-align:center;margin-top:2rem;border:3px solid var(--border)}
+/* Auswertung */
+.quiz-score{display:none;background:var(--bg-subtle);border:3px solid var(--dark-primary);padding:3rem 2rem;text-align:center;margin-top:3rem}
 .quiz-score.show{display:block}
-.quiz-score .qs-val{font-size:56px;font-weight:900;color:var(--blue-deep);margin-bottom:0.5rem}
-.quiz-score .qs-details{font-size:16px;color:var(--muted);margin-bottom:1rem;font-weight:600}
-.quiz-score .qs-lbl{font-size:22px;color:var(--text);margin-bottom:1.5rem;font-weight:900;text-transform:uppercase;letter-spacing:1px}
+.quiz-score .qs-val{font-size:64px;font-weight:900;color:var(--dark-primary);margin-bottom:0.5rem}
+.quiz-score .qs-details{font-size:16px;color:var(--dark-muted);margin-bottom:1.5rem;font-weight:700}
+.quiz-score .qs-lbl{font-size:24px;color:var(--dark-primary);margin-bottom:1.5rem;font-weight:900;letter-spacing:0.5px}
 
-.name-row{display:flex;align-items:center;gap:16px;background:#fff;border:2px solid var(--blue-deep);border-radius:12px;padding:1rem 1.25rem;margin-bottom:2rem;box-shadow:0 4px 6px -1px rgba(0,0,0,0.05)}
-.name-row label{font-size:15px;font-weight:800;white-space:nowrap;color:var(--blue-deep)}
-.name-row input{flex:1;border:none;background:transparent;font-size:16px;color:var(--text);outline:none;font-weight:700}
-.name-row input::placeholder{color:var(--muted);font-weight:400}
+.name-row{display:flex;align-items:center;gap:16px;background:var(--bg-pure);border:1px solid var(--dark-primary);padding:1rem 1.25rem;margin-bottom:2.5rem}
+.name-row label{font-size:15px;font-weight:900;white-space:nowrap;color:var(--dark-primary)}
+.name-row input{flex:1;border:none;background:transparent;font-size:16px;color:var(--dark-primary);outline:none;font-weight:700}
+.name-row input::placeholder{color:var(--dark-muted);font-weight:500}
 
-.mail-note{font-size:14.5px;color:#374151;margin-top:1.5rem;padding:1.25rem;background:#F3F4F6;border-radius:10px;border:1px solid var(--border);line-height:1.7}
-.mail-note strong{color:var(--blue-deep)}
+.mail-note{font-size:15px;color:var(--dark-primary);margin-top:2rem;padding:1.5rem;background:var(--bg-pure);border:1px solid var(--accent-grey);line-height:1.7;text-align:left}
 
-.nav-btns{display:flex;justify-content:space-between;margin-top:2.5rem;gap:12px}
-.btn{padding:.8rem 1.75rem;border-radius:12px;border:2px solid var(--border);background:#fff;cursor:pointer;font-size:15px;font-weight:800;color:var(--text);transition:all .2s;display:inline-flex;align-items:center;gap:8px}
-.btn:hover{background:var(--subtle);border-color:#4B5563;transform:translateY(-2px)}
-.btn-primary{background:linear-gradient(135deg,var(--blue-deep),var(--green-dark));color:#fff;border-color:transparent;box-shadow:0 4px 10px rgba(11,61,107,0.2)}
-.btn-primary:hover{box-shadow:0 6px 14px rgba(11,61,107,0.3);color:#fff}
-.sect-progress{background:var(--border);border-radius:8px;height:6px;margin-bottom:2.5rem}
-.sect-progress-fill{background:linear-gradient(90deg,var(--blue-deep),var(--green-dark));border-radius:8px;height:6px;transition:width .5s}
+.nav-btns{display:flex;justify-content:space-between;margin-top:3rem;gap:16px}
+.btn{padding:1rem 2rem;border:1px solid var(--accent-grey);background:var(--bg-pure);cursor:pointer;font-size:15px;font-weight:800;color:var(--dark-primary);transition:all .15s;display:inline-flex;align-items:center;gap:8px}
+.btn:hover{border-color:var(--dark-primary);background:var(--bg-subtle)}
+.btn-primary{background:var(--dark-primary);color:#fff;border-color:var(--dark-primary)}
+.btn-primary:hover{background:var(--dark-muted);border-color:var(--dark-muted);color:#fff}
+
+.sect-progress{background:var(--accent-grey);zoom:1;height:5px;margin-bottom:3rem}
+.sect-progress-fill{background:var(--dark-primary);height:5px;transition:width .4s}
 </style>
 </head>
 <body>
@@ -130,8 +125,8 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
 <!-- HERO -->
 <div class="hero">
   <div class="hero-badge">Realm Elite Training · Vertriebs-Mentorat</div>
-  <h1>Modul 2: Die Kunst der B2B-Akquise &amp;<br><span>skalierbaren Lead-Generierung</span></h1>
-  <p>Durchschnittliche Verkäufer bitten um Termine. Die Vertriebselite steuert die Realität des Gegenübers. Dieses Modul vermittelt die exakten Mechanismen, um das Vorzimmer zu dominieren, LinkedIn in ein präzises Instrument zur Neukundengewinnung zu verwandeln und Projekte eiskalt vorzuqualifizieren.</p>
+  <h1>B2B Kaltakquise &amp; Leadschulung<br><span>Die Totale Markt-Dominanz</span></h1>
+  <p>Durchschnittliche Verkäufer bitten um Termine. Die Vertriebselite steuert die Realität des Gegenübers. Diese Masterclass vermittelt die exakten Mechanismen, um das Vorzimmer zu dominieren, LinkedIn in ein präzises Instrument zur Inbound-Generierung zu verwandeln und Großprojekte eiskalt vorzuqualifizieren.</p>
 </div>
 
 <!-- NAV -->
@@ -146,7 +141,7 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
 
 <div class="page">
 
-<!-- ══════════════════════════════ SECTION 0 ══ -->
+<!-- SECTION 0: COLD CALLING -->
 <div class="section active" id="sec0">
   <div class="sect-progress"><div class="sect-progress-fill" style="width:25%"></div></div>
 
@@ -159,9 +154,9 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
     </div>
 
     <h3>Die Psychologie des Gatekeeper-Rapports</h3>
-    <p>Assistenzen der Geschäftsführung sind darauf konditioniert, Werbeanrufe innerhalb der ersten 3 Sekunden zu identifizieren und zu blockieren. Typische Trigger sind: Übertriebene Freundlichkeit, Unsicherheit, Rechtfertigungen („Ich wollte mal fragen...“) oder das sofortige Pitchen von Produktmerkmalen.</p>
+    <p>Assistenzen der Geschäftsführung sind darauf konditioniert, Werbeanrufe innerhalb der ersten 3 Sekunden zu identifizieren und zu blockieren. Typische Trigger sind: Übertriebene Freundlichkeit, Unsicherheit, Rechtfertigungen („Ich hoffe, ich störe nicht...“) oder das sofortige Pitchen von Produktmerkmalen.</p>
     
-    <p>Das Durchbrechen dieser Barriere erfordert den sogenannten **Status-Rapport**. Die eigene Tonalität orientiert sich nicht an der Assistenz, sondern an der des Geschäftsführers: Ruhig, bestimmt, geschäftsmäßig, fokussiert und absolut direkt.</p>
+    <p>Das Durchbrechen dieser Barriere erfordert den sogenannten <strong>Status-Rapport</strong>. Die eigene Tonalität orientiert sich nicht an der Assistenz, sondern an der des Geschäftsführers: Ruhig, bestimmt, geschäftsmäßig, fokussiert und absolut direkt.</p>
 
     <h3>Die linguistischen Werkzeuge in der Praxis</h3>
     
@@ -169,16 +164,16 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
     <p>Es wird nicht um Erlaubnis gebeten. Das Telefonat wird als geschäftliche Notwendigkeit für das Zielunternehmen vorausgesetzt. Der Nachname und das Unternehmen werden flüssig genannt, gefolgt von einer klaren, höflichen Handlungsanweisung.</p>
     
     <div class="script-box">
-      <strong>❌ Der fehlerhafte Ansatz:</strong><br>
-      <span class="bad">„Ja hallo, mein Name ist Jan Müller von der Realm Germany. Ich hoffe, ich störe nicht? Ich wollte mal fragen, ob eventuell der Herr Geschäftsführer Schneider heute ganz kurz Zeit für mich hätte? Es geht um unsere neuen, hocheffizienten R290-Wärmepumpen...“</span><br>
+      <strong>❌ Der fehlerhafte Ansatz:</strong>
+      <span class="bad">„Ja hallo, mein Name ist Jan Müller von der Realm Germany. Ich hoffe, ich störe nicht? Ich wollte mal fragen, ob eventuell der Herr Geschäftsführer Schneider heute ganz kurz Zeit für mich hätte? Es geht um unsere neuen, hocheffizienten R290-Wärmepumpen...“</span>
       <em>Konsequenz:</em> „Schicken Sie uns bitte Informationen an info@...“ *Aufgelegt.*<br><br>
-      <strong>🎯 Der Elite-Ansatz (Standard):</strong><br>
-      <span class="good">„Guten Tag, Müller mein Name, Realm Germany. Frau [Name der Assistenz – falls bekannt], bringen Sie mich bitte kurz zu Herrn Schneider durch. Danke Ihnen.“</span><br>
+      <strong>🎯 Der Elite-Ansatz (Standard):</strong>
+      <span class="good">„Guten Tag, Müller mein Name, Realm Germany. Frau [Name der Assistenz – falls bekannt], bringen Sie mich bitte kurz zu Herrn Schneider durch. Danke Ihnen.“</span>
       <em>Psychologischer Hintergrund:</em> Keine Fragen, kein Zögern. Die Formulierung „bringen Sie mich bitte durch“ impliziert einen bereits bestehenden Kontext oder eine akute geschäftliche Relevanz.
     </div>
 
     <h4>2. Der „Prozess-Grund“ schlägt den „Produkt-Grund“</h4>
-    <p>Fragt die Assistenz nach dem Grund (*„Worum geht es denn genau?“*), darf unter keinen Umständen das Produkt genannt werden. Sobald Begriffe wie „Wärmepumpe“ oder „Heizung“ fallen, erfolgt die sofortige Kategorisierung als austauschbarer Verkäufer.</p>
+    <p>Fragt die Assistenz nach dem Grund (<em>„Worum geht es denn genau?“</em>), darf unter keinen Umständen das Produkt genannt werden. Sobald Begriffe wie „Wärmepumpe“ oder „Heizung“ fallen, erfolgt die sofortige Kategorisierung als austauschbarer Verkäufer.</p>
     
     <div class="script-box">
       <strong>❌ Der Fehler:</strong> <span class="bad">„Es geht um unsere neuen R290 Großwärmepumpen, die super Lieferzeiten haben...“</span><br><br>
@@ -186,7 +181,7 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
     </div>
 
     <h4>3. Die info@-Blackbox elegant aushebeln</h4>
-    <p>Beim Vorwand *„Schicken Sie uns Unterlagen an info@...“* wird dem Einwand formal zugestimmt, um Reaktanz zu vermeiden. Gleichzeitig wird er als Hebel genutzt, um den Kommunikationskanal zu personalisieren.</p>
+    <p>Beim Vorwand <em>„Schicken Sie uns Unterlagen an info@...“</em> wird dem Einwand formal zugestimmt, um Reaktanz zu vermeiden. Gleichzeitig wird er als Hebel genutzt, um den Kommunikationskanal zu personalisieren.</p>
     <div class="script-box">
       <strong>Gegenstrategie:</strong> <span class="good">„Das mache ich gern. Da es sich hierbei um die exklusiven Gebietsschutz-Dokumente und vertrauliche Projekt-Kennzahlen für die Region handelt, leite ich diese direkt an den persönlichen Tisch von Herrn Schneider weiter. Geben Sie mir dafür kurz seine direkte Durchwahl oder seine persönliche E-Mail-Adresse durch?“</span>
     </div>
@@ -198,7 +193,7 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
   </div>
 </div>
 
-<!-- ══════════════════════════════ SECTION 1 ══ -->
+<!-- SECTION 1: SOCIAL SELLING -->
 <div class="section" id="sec1">
   <div class="sect-progress"><div class="sect-progress-fill" style="width:50%"></div></div>
 
@@ -207,36 +202,49 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
     
     <div class="mentor-box">
       <strong>Strategisches Kernprinzip:</strong>
-      Massenhafte Copy-Paste-Nachrichten an Geschäftsführer verbrennen den Markt. Die digitale Lead-Generierung funktioniert nach dem Prinzip der Relevanz und des Statusaufbaus, lange bevor die erste Nachricht gesendet wird. Das Ziel ist es, vom Kunden als Branchen-Experte entdeckt zu werden, statt als digitaler Störfaktor wahrgenommen zu werden.
+      Massenhafte Copy-Paste-Nachrichten an Geschäftsführer verbrennen den Markt, ruinieren deine Reputation und landen im digitalen Papierkorb. Die Vertriebselite betreibt kein digitales „Klinkenputzen“, sondern <strong>Inbound-Prospecting</strong>. Wir transformieren dein LinkedIn-Profil von einer digitalen Visitenkarte in eine hochkonvertierende Landingpage. Das Ziel: Der Entscheider muss dich als unangefochtenen Branchen-Experten wahrnehmen, noch bevor du das erste Wort tippst.
     </div>
 
-    <h3>Die 3 Säulen der digitalen Anziehungskraft</h3>
-    <p>Klickt ein Geschäftsführer oder Projektentwickler auf ein Profil, entscheidet er innerhalb von ca. 4 Sekunden über die Kompetenz des Kontakts.</p>
-
-    <h4>Säule 1: Das Landingpage-Profil (Die Nutzen-Formel)</h4>
-    <p>Der Profil-Slogan (Headline) darf keine austauschbare Positionsbeschreibung („Sales Manager bei Realm“) enthalten. Im Fokus steht ausschließlich die Lösung des Kundenproblems.</p>
+    <h3>Die 1. Säule: Das Landingpage-Profil (Die Nutzen-Formel)</h3>
+    <p>Wenn ein Geschäftsführer, TGA-Fachplaner oder gewerblicher Bauträger auf dein Profil klickt, hast du exakt 4 Sekunden Zeit, um seine volle Aufmerksamkeit zu fesseln. Standard-Phrasen wie „Sales Manager bei Realm“ signalisieren sofort ein Verkaufsinteresse.</p>
+    
     <div class="hl">
-      <strong>Die Nutzen-Formel:</strong><br>
-      <em>Ich helfe [Zielgruppe] dabei, [großes Problem zu lösen] / [großes Ziel zu erreichen], ohne [größte Sorge der Zielgruppe].</em>
-    </div>
-    <div class="script-box">
-      <strong>Beispiel für die Umsetzung:</strong><br>
-      <span class="good">„Ich helfe TGA-Fachplanern und gewerblichen Bauträgern dabei, R290-Wärmepumpen-Großprojekte absolut lieferfähig und rechtssicher zu realisieren – ohne unvorhergesehene Kostenexplosionen und langwierige Genehmigungsprozesse.“</span>
+      <strong>Die Realm-Nutzen-Formel:</strong><br>
+      Ich helfe [Zielgruppe] dabei, [großes Problem zu lösen] / [großes Ziel zu erreichen], ohne [größte Sorge/Einwand der Zielgruppe].
     </div>
 
-    <h4>Säule 2: Das digitale Prospecting (Die 3-Touchpoint-Regel)</h4>
-    <p>Vor dem Senden einer Vernetzungsanfrage wird über den *Mere-Exposure-Effekt* gezielt psychologische Vertrautheit aufgebaut:</p>
+    <div class="script-box">
+      <strong>Musterbeispiele auf Weltklasse-Niveau:</strong><br><br>
+      <span class="good">„Ich helfe TGA-Fachplanern dabei, R290-Wärmepumpen-Großprojekte absolut lieferfähig und rechtssicher zu projektieren – ohne unvorhergesehene Kostenexplosionen und langwierige Genehmigungsprozesse.“</span><br><br>
+      <span class="good">„Wir sichern die KfW-Förderfähigkeit und termingerechte Fertigstellung von gewerblichen Neubauten durch skalierbare Dekarbonisierungs-Konzepte – ohne die typischen Lieferverzögerungen der Alt-Hersteller.“</span>
+    </div>
+
+    <h3>Die 2. Säule: Das digitale Prospecting (Die 3-Touchpoint-Regel)</h3>
+    <p>Bevor du eine Vernetzungsanfrage sendest, nutzen wir den <strong>Mere-Exposure-Effekt</strong>, um gezielt psychologische Vertrautheit aufzubauen:</p>
     <ul>
-      <li><strong>Touchpoint 1: Der Profilbesuch.</strong> Ein bewusster Besuch des Zielprofils generiert eine Benachrichtigung beim Entscheider.</li>
-      <li><strong>Touchpoint 2: Die Interaktion.</strong> Nach 24 Stunden wird ein relevanter geschäftlicher Beitrag des Kontakts geliked.</li>
-      <li><strong>Touchpoint 3: Der Experten-Kommentar.</strong> Unter dem Beitrag wird ein fachlich fundierter, wertschätzender Kommentar hinterlassen – absolut ohne Verkaufsabsicht.</li>
+      <li><strong>Touchpoint 1 (Tag 1) – Der Profilbesuch:</strong> Ein bewusster Besuch des Zielprofils generiert eine Benachrichtigung beim Entscheider. Dein Slogan arbeitet bereits als Teaser.</li>
+      <li><strong>Touchpoint 2 (Tag 2) – Der strategische Like:</strong> Interagiere mit einem relevanten geschäftlichen Beitrag des Kontakts. Absolut ohne Verkaufsabsicht.</li>
+      <li><strong>Touchpoint 3 (Tag 3) – Der Experten-Kommentar:</strong> Hinterlasse unter seinem Beitrag einen fachlich fundierten Kommentar.</li>
     </ul>
 
-    <h4>Säule 3: Die qualifizierte Vernetzungsanfrage</h4>
-    <p>Nachgelagert erfolgt die Vernetzung. Die Nachricht ist kurz, frei von Pitch-Elementen und knüpft direkt an die bestehende Interaktion an.</p>
     <div class="script-box">
-      <strong>Muster-Anfrage:</strong><br>
-      <span class="good">„Hallo Herr Dr. Schneider, Ihr jüngster Beitrag zum Thema Effizienz im Gewerbebau hat mich inspiriert – insbesondere der Punkt bezüglich der Kältemittel-Umstellung. Ich begleite genau diesen Bereich bei der Realm Germany und freue mich auf den fachlichen Austausch in meinem Netzwerk. Beste Grüße, Jan Müller“</span>
+      <strong>Elite-Kommentarbeispiel:</strong><br>
+      <span class="good">„Ein extrem spannender Ansatz bei diesem Großprojekt, Herr Dr. Schneider. Besonders der Umgang mit den Schallschutz-Auflagen im urbanen Raum zeigt, wie entscheidend vorausschauende Planung heute ist. Die Umstellung auf natürliche Kältemittel wird diesen Hebel noch massiv verstärken.“</span>
+    </div>
+
+    <h3>Die 3. Säule: Die qualifizierte Vernetzungsanfrage</h3>
+    <p>Nachgelagert erfolgt die Vernetzung. Die Nachricht ist kurz, frei von Pitch-Elementen und knüpft direkt an die Interaktion an.</p>
+    
+    <div class="script-box">
+      <strong>Muster-Skript (Bezug auf Beitrag):</strong><br>
+      <span class="good">„Hallo Herr Dr. Schneider, Ihr jüngster Beitrag zum Thema Effizienz im Gewerbebau hat mich inspiriert – insbesondere Ihr Punkt bezüglich der Kältemittel-Umstellung im urbanen Raum. Ich begleite genau diesen Bereich (R290-Großprojekte) bei der Realm Germany und freue mich auf den fachlichen Austausch in meinem Netzwerk. Beste Grüße, Jan Müller“</span>
+    </div>
+
+    <h3>Der psychologische Übergang: „Chat-to-Call“-Prozess</h3>
+    <p>Die Vertriebselite wartet 24 bis 48 Stunden nach Annahme, bevor sie über eine offene, strategische Frage die Konversation in ein Telefonat lenkt.</p>
+    <div class="script-box">
+      <strong>Die Schmerzpunkt-Validierung im Chat:</strong><br>
+      <span class="good">„Vielen Dank für die Vernetzung, Herr Schneider. Ich sehe an Ihren Projekten, dass Sie Maßstäbe setzen. Sagen Sie mal aus der Praxis gesprochen: Spüren Sie bei Ihren Planungen bereits den Druck der Marktverknappung bei zertifizierten R290-Großgeräten, oder sind Ihre Lieferketten stabil?“</span>
     </div>
   </div>
 
@@ -246,7 +254,7 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
   </div>
 </div>
 
-<!-- ══════════════════════════════ SECTION 2 ══ -->
+<!-- SECTION 2: BANT FILTER -->
 <div class="section" id="sec2">
   <div class="sect-progress"><div class="sect-progress-fill" style="width:75%"></div></div>
 
@@ -255,11 +263,11 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
     
     <div class="mentor-box">
       <strong>Strategisches Kernprinzip:</strong>
-      Die eigene Vertriebszeit ist die wertvollste Ressource. Top-Performer zeichnen sich dadurch aus, dass sie unqualifizierte Leads so schnell wie möglich identifizieren und aussortieren. Wer weder über das Budget noch über die nötige Entscheidungsmacht verfügt, darf den operativen Prozess nicht blockieren.
+      Deine Vertriebszeit ist die wertvollste Ressource. Top-Performer zeichnen sich dadurch aus, dass sie unqualifizierte Leads so schnell wie möglich identifizieren und aussortieren. Wer weder über das Budget noch über die nötige Entscheidungsmacht verfügt, darf den operativen Prozess nicht blockieren. Wir nutzen BANT als tiefenpsychologische Projektdiagnose.
     </div>
 
     <h3>Das BANT-Framework als strategischer Filter</h3>
-    <p>BANT ist kein starrer Fragebogen, sondern eine qualitative Leitlinie zur Verifikation des echten Projektpotenzials im Erstgespräch.</p>
+    <p>Kunden neigen im Erstgespräch oft zu Schutzbehauptungen, um ihre Verhandlungsposition zu sichern oder Gratis-Consulting abzugreifen. Verwende diese präzisen, indirekten Fragetechniken:</p>
 
     <div class="tbl-wrap">
       <table>
@@ -267,40 +275,39 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
           <tr>
             <th>Kriterium</th>
             <th>Vertriebliche Kernbedeutung</th>
-            <th>Psychologische Abfrage-Technik</th>
+            <th>Elite-Abfrage-Technik (Indirekt)</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td><strong>B - Budget</strong></td>
             <td>Verfügt das Unternehmen über die finanziellen Mittel für eine Premium-Lösung?</td>
-            <td><em>Indirekte Abfrage:</em> „Für Projekte dieser Größenordnung: Welcher finanzielle Rahmen wurde für diese Projektphase bereits freigegeben?“</td>
+            <td><span class="good">„Welcher finanzielle Korridor wurde von Ihrer Geschäftsführung für diese spezifische Projektphase bereits verbindlich allokiert?“</span></td>
           </tr>
           <tr>
             <td><strong>A - Authority</strong></td>
             <td>Sitzt der tatsächliche Entscheider (mit Unterschriftenvollmacht) am Tisch?</td>
-            <td>„Angenommen, unser Konzept überzeugt Sie vollständig: Wie sieht Ihr interner Freigabeprozess aus und wer ist außer Ihnen an der finalen Entscheidung beteiligt?“</td>
+            <td><span class="good">„Angenommen, unser Konzept überzeugt Sie vollständig: Wie sieht Ihr interner Freigabeprozess aus und welche Instanzen sind für die finale Unterschrift involviert?“</span></td>
           </tr>
           <tr>
             <td><strong>N - Need</strong></td>
-            <td>Existiert ein akuter, wirtschaftlicher Schmerzpunkt (z.B. Lieferverzug des Altlieferanten)?</td>
-            <td>„Welche Auswirkungen auf Ihre Fertigstellungstermine hat es, wenn Ihr aktueller Lieferant die R290-Großgeräte im kommenden Quartal nicht fristgerecht liefert?“</td>
+            <td>Existiert ein akuter, wirtschaftlicher Schmerzpunkt (z.B. F-Gase-Vorgaben)?</td>
+            <td><span class="good">„Welche konkreten Auswirkungen auf Ihre Genehmigungsfähigkeit im nächsten Quartal hat es, wenn wir das Thema Kältemittel-Umstellung jetzt nicht proaktiv lösen?“</span></td>
           </tr>
           <tr>
             <td><strong>T - Timeline</strong></td>
             <td>Wann ist der geplante Projekt- und Umsatzrealisierungs-Horizont?</td>
-            <td>„Damit wir die Produktionskapazitäten und den Gebietsschutz für Sie sichern können: Bis zu welchem Stichtag muss die Anlage betriebsbereit am Netz sein?“</td>
+            <td><span class="good">„Damit wir die Produktionsslots im Werk sichern können: Zu welchem konkreten Stichtag muss die Anlage zwingend betriebsbereit am Netz sein?“</span></td>
           </tr>
         </tbody>
       </table>
     </div>
 
-    <h3>Lead-Klassifizierung: A-, B- und C-Leads</h3>
-    <p>Die Einstufung der Kontakte erfolgt unmittelbar nach dem Erstkontakt:</p>
+    <h3>Lead-Klassifizierung: Das Ampel-System</h3>
     <ul>
-      <li><strong>A-Leads (Fokus 80%):</strong> Alle vier BANT-Kriterien sind positiv erfüllt. Akuter Bedarf, Budget vorhanden, Entscheider am Tisch, zeitnahe Umsetzung.</li>
-      <li><strong>B-Leads (Nurturing Pipeline):</strong> Bedarf und Budget vorhanden, jedoch liegt die Umsetzung weiter in der Zukunft oder der Freigabeprozess verzögert sich. Diese Leads werden über Mehrwert-Content systematisch weiterentwickelt.</li>
-      <li><strong>C-Leads (Disqualifikation):</strong> Kein Budget, kein realer Schmerzpunkt, keine Entscheidungsmacht. Diese Kontakte werden konsequent aussortiert.</li>
+      <li><strong>A-Leads (Grün - Fokus 80%):</strong> Alle vier BANT-Kriterien sind positiv erfüllt. Akuter Bedarf, Budget vorhanden, Entscheider am Tisch, zeitnahe Umsetzung. Sofortiger Vor-Ort-Termin.</li>
+      <li><strong>B-Leads (Gelb - Nurturing Pipeline):</strong> Bedarf und Budget vorhanden, jedoch liegt die Umsetzung weiter in der Zukunft oder der Freigabeprozess verzögert sich. Systematischer Content-Aufbau.</li>
+      <li><strong>C-Leads (Rot - Disqualifikation):</strong> Kein Budget, kein realer Schmerzpunkt, keine Entscheidungsmacht. Diese Kontakte werden konsequent, aber professionell aussortiert.</li>
     </ul>
   </div>
 
@@ -310,18 +317,18 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
   </div>
 </div>
 
-<!-- ══════════════════════════════ SECTION 3 ══ -->
+<!-- SECTION 3: QUIZ -->
 <div class="section" id="sec3">
   <div class="sect-progress"><div class="sect-progress-fill" style="width:100%"></div></div>
 
   <div class="card">
     <div class="card-title"><span class="ico">🏆</span>Zertifizierungs-Prüfung – Level: Realm B2B-Closer</div>
-    <p>Die Abschlussprüfung umfasst **20 komplexe Praxisszenarien**. Um die Zertifizierung erfolgreich zu bestehen, sind **mindestens 17 richtige Antworten** erforderlich (maximal 3 Fehler). Jede Eingabe wird in Echtzeit evaluiert.</p>
+    <p>Die Abschlussprüfung umfasst <strong>20 komplexe Praxisszenarien</strong> aus der Kaltakquise, dem Social Selling und der BANT-Qualifizierung. Um die Zertifizierung erfolgreich zu bestehen, sind <strong>mindestens 17 richtige Antworten</strong> erforderlich (maximal 3 Fehler). Jede Eingabe wird in Echtzeit evaluiert.</p>
   </div>
 
   <div class="quiz-box">
-    <h3>🎯 Modul 2 Abschlussprüfung – Akquise-Kompetenz</h3>
-    <div class="qsub">Realm Zertifikat · Modul 2 · 20 Praxisfragen</div>
+    <h3>🎯 Gesamtprüfung – B2B-Akquise &amp; Lead-Meisterschaft</h3>
+    <div class="qsub">Realm Zertifikat · Module 1-3 · 20 Praxisfragen</div>
 
     <!-- NAMENS-EINGABE -->
     <div class="name-row">
@@ -396,7 +403,7 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
       <button class="qopt" onclick="handleAnswer(this, 2)"><span class="qdot"></span>„Ich helfe TGA-Planern dabei, R290-Großprojekte lieferfähig umzusetzen – ohne Planungsrisiko und ohne lange Genehmigungszeiten.“</button>
       <button class="qopt" onclick="handleAnswer(this, 3)"><span class="qdot"></span>„Experte für erneuerbare Energien, Motivation und B2B-Vertrieb.“</button>
       <div class="qfb ok">✓ Korrekt! Diese Headline formuliert den exakten Kundennutzen und löst ein reales Problem der Zielgruppe auf einen Blick.</div>
-      <div class="qfb err">✗ Falsch! Option A und C beschreiben dich. Option B beschreibt die *Lösung für den Kunden*. Nur das zählt!</div>
+      <div class="qfb err">✗ Falsch! Option A und C beschreiben dich. Option B beschreibt die Lösung für den Kunden. Nur das zählt!</div>
     </div>
 
     <!-- QUESTION 8 -->
@@ -405,7 +412,7 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
       <button class="qopt" onclick="handleAnswer(this, 1)"><span class="qdot"></span>Profil besuchen, 24h später einen Beitrag von ihm liken, am Folgetag einen qualifizierten Fachkommentar hinterlassen.</button>
       <button class="qopt" onclick="handleAnswer(this, 2)"><span class="qdot"></span>Ihn an drei verschiedenen Tagen exakt um die gleiche Uhrzeit per Nachricht anschreiben.</button>
       <button class="qopt" onclick="handleAnswer(this, 3)"><span class="qdot"></span>Drei verschiedene Mitarbeiter des Einkaufs gleichzeitig im Chat kontaktieren.</button>
-      <div class="qfb ok">✓ Korrekt! Dadurch erzeugst du subtile psychologische Vertrautheit (*Mere-Exposure-Effekt*), bevor du überhaupt anklopfst.</div>
+      <div class="qfb ok">✓ Korrekt! Dadurch erzeugst du subtile psychologische Vertrautheit (Mere-Exposure-Effekt), bevor du überhaupt anklopfst.</div>
       <div class="qfb err">✗ Falsch! Die Touchpoints müssen subtile Interaktionen auf der Plattform sein, kein Spam im Postfach.</div>
     </div>
 
@@ -436,7 +443,7 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
       <button class="qopt" onclick="handleAnswer(this, 2)"><span class="qdot"></span>„Haben Sie einen Bedarf an modernen Wärmepumpen von Realm Germany?“</button>
       <button class="qopt" onclick="handleAnswer(this, 3)"><span class="qdot"></span>„Wie wichtig ist Ihnen das Thema Umweltschutz bei Ihren Gebäuden auf einer Skala von 1 bis 10?“</button>
       <div class="qfb ok">✓ Korrekt! Diese Frage führt dem Kunden das Risiko der Untätigkeit vor Augen und weckt das dringende Bedürfnis nach einer Lösung.</div>
-      <div class="qfb err">✗ Falsch! Oberflächliche Fragen (Option B und C) erzeugen keine Dringlichkeit. Du musst den Schmerz der Lieferverzögerung triggern.</div>
+      <div class="qfb err">✗ Falsch! Oberflächliche Fragen erzeugen keine Dringlichkeit. Du musst den Schmerz der Lieferverzögerung triggern.</div>
     </div>
 
     <!-- QUESTION 12 -->
@@ -444,7 +451,7 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
       <div class="qt">12. Was zeichnet ein gefährliches „C-Lead“ aus, das deine wertvolle Vertriebszeit stiehlt?</div>
       <button class="qopt" onclick="handleAnswer(this, 1)"><span class="qdot"></span>Ein Lead, das sofort ein Angebot per Mail fordert und den Vertrag morgen unterschreiben will.</button>
       <button class="qopt" onclick="handleAnswer(this, 2)"><span class="qdot"></span>Ein Mitbewerber, der vorgibt, ein Kunde zu sein, um unsere Preise zu spionieren.</button>
-      <button class="qopt" onclick="handleAnswer(this, 3)"><span class="qdot"></span>Ein Kontakt ohne Budget und ohne akuten Schmerz, der nur kostenlose Beratung und Preise abgreifen will.</button>
+      <button class="qopt" onclick="handleAnswer(this, 3)"><span class="qdot"></span>Ein kontakt ohne Budget und ohne akuten Schmerz, der nur kostenlose Beratung und Preise abgreifen will.</button>
       <div class="qfb ok">✓ Korrekt! C-Leads sind Zeitdiebe. Ein wahrer Verkaufs-Profi sortiert sie sofort und konsequent aus.</div>
       <div class="qfb err">✗ Falsch! Kontakte ohne Budget und ohne echten Leidensdruck sind C-Leads. Sofort disqualifizieren!</div>
     </div>
@@ -475,7 +482,7 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
       <button class="qopt" onclick="handleAnswer(this, 1)"><span class="qdot"></span>„Ihr Lieferant nutzt technisch veraltete Systeme. Sie sollten sofort wechseln!“</button>
       <button class="qopt" onclick="handleAnswer(this, 2)"><span class="qdot"></span>„Hervorragend. Treue ist im Markt selten. Wir wollen diesen Partner nicht ersetzen, sondern uns rein als strategischer Zweitlieferant zur Risikoabsicherung bei Lieferengpässen positionieren.“</button>
       <button class="qopt" onclick="handleAnswer(this, 3)"><span class="qdot"></span>„Schade, da kann man wohl nichts machen. Vielen Dank für das Gespräch.“</button>
-      <div class="qfb ok">✓ Korrekt! Ein Frontalangriff erzeugt sofortige Abwehr (*Reaktanz*). Die Positionierung als Sicherheitsnetz/Backup öffnet die Tür spielend.</div>
+      <div class="qfb ok">✓ Korrekt! Ein Frontalangriff erzeugt sofortige Abwehr (Reaktanz). Die Positionierung als Sicherheitsnetz/Backup öffnet die Tür spielend.</div>
       <div class="qfb err">✗ Falsch! Wer den bestehenden Partner schlechtredet, beleidigt die Entscheidung des Kunden. Biete dich stattdessen als Risikoabsicherung an.</div>
     </div>
 
@@ -516,7 +523,7 @@ td{padding:14px 16px;border-bottom:1px solid #F3F4F6;color:#4B5563;vertical-alig
       <button class="qopt" onclick="handleAnswer(this, 2)"><span class="qdot"></span>Ich schreibe das Angebot für den Projektleiter und hoffe, dass er es intern irgendwie alleine durchbekommt.</button>
       <button class="qopt" onclick="handleAnswer(this, 3)"><span class="qdot"></span>Ich mache den Projektleiter zu meinem internen Verbündeten („Champion“) und schlage vor, die Geschäftsführung im nächsten Schritt gemeinsam fachlich abzusichern.</button>
       <div class="qfb ok">✓ Korrekt! Du nutzt deinen Champion als Hebel, um gemeinsam vor dem echten Entscheider aufzutreten, ohne Hierarchien zu verletzen.</div>
-      <div class="qfb err">✗ Falsch! Option A verbrennt deinen Mutant. Option B führt zu monatelangem Stillstand. Mache den Kontakt zu deinem internen Verbündeten!</div>
+      <div class="qfb err">✗ Falsch! Option A verbrennt deinen Champion. Option B führt zu monatelangem Stillstand. Mache den Projektleiter zum Verbündeten!</div>
     </div>
 
     <!-- QUESTION 20 -->
@@ -659,15 +666,13 @@ function finishAndEvaluate() {
   
   if(passed) {
     scoreLbl.textContent = "🎉 Zertifizierung BESTANDEN!";
-    scoreLbl.style.color = "var(--green-dark)";
     resultText.innerHTML = `<strong>Hervorragende Leistung, ${globalName}!</strong> Sie haben maximal 3 Fehler gemacht und bewiesen, dass Sie die psychologischen und strategischen Mechanismen des B2B-Großkundenvertriebs auf Elite-Niveau beherrschen.`;
   } else {
     scoreLbl.textContent = "❌ Zertifizierung NICHT BESTANDEN";
-    scoreLbl.style.color = "var(--red)";
     resultText.innerHTML = `<strong>Das reicht noch nicht, ${globalName}.</strong> Sie haben die kritische Fehlergrenze überschritten. Im realen Markt führen diese Fehler zum Verlust von Millionen-Umsätzen. Analysieren Sie die Skripte erneut und starten Sie einen neuen Versuch.`;
   }
 
-  emailReportText = `Realm Germany Vertriebsschulung - Modul 2 (B2B-Akquise)\n`;
+  emailReportText = `Realm Germany Vertriebsschulung - Gesamtauswertung (B2B-Akquise)\n`;
   emailReportText += `==================================================\n`;
   emailReportText += `Teilnehmer: ${globalName}\n`;
   emailReportText += `Ergebnis: ${finalCorrect} von 20 Punkten\n`;
@@ -686,7 +691,7 @@ function finishAndEvaluate() {
 }
 
 function sendResultEmail() {
-  const subject = encodeURIComponent(`Schulungsergebnis Modul 2: ${globalName} (${finalCorrect}/20 - ${finalCorrect >= 17 ? 'Bestanden' : 'Nicht bestanden'})`);
+  const subject = encodeURIComponent(`Schulungsergebnis Masterclass: ${globalName} (${finalCorrect}/20 - ${finalCorrect >= 17 ? 'Bestanden' : 'Nicht bestanden'})`);
   const body = encodeURIComponent(emailReportText);
   window.location.href = `mailto:m.christel@realm-europe.de?subject=${subject}&body=${body}`;
 }
